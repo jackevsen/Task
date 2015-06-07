@@ -8,6 +8,7 @@ import view.holder.ImageHolder;
 
 public class CanvasEvent extends Event {
     public static const ADD_TO_CANVAS:String = "CanvasEvent_addToCanvas";
+    public static const REMOVE_FROM_CANVAS:String = "CanvasEvent_RemoveFromCanvas";
 
     private var _image:ImageHolder;
 

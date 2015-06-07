@@ -1,0 +1,73 @@
+// ===============ARRAYS SORTING====================
+
+    public function TwoArraysSorting(array1:Array, array2:Array):Array{
+        var resultArray:Array = new Array(array1.length + array2.length);
+        var i:int = 0;
+        var j:int = 0;
+        var index:int = 0;
+        var sortingOrder:String = "increase";
+        var testSortingArray:Array = array1.length > 1 ? array1 : (array2.length > 1 ? array2 : null);
+        if(testSortingArray){
+            if(testSortingArray[0] > testSortingArray[1]){
+                sortingOrder = "decrease";
+            }
+        }
+
+        while (i < array1.length && j < array2.length){
+            if (array1[i] < array2[j]){
+                resultArray[index] = array1[i];
+                i++;
+            }else{
+                resultArray[index] = array2[j];
+                j++;
+            }
+
+            index++;
+        }
+
+        if(i < array1.length){
+            while (i < array1.length){
+                resultArray[index] = array1[i];
+                index++;
+                i++;
+            }
+        }
+
+
+        if(j < array2.length){
+            while (j < array2.length){
+                resultArray[index] = array2[j];
+                index++;
+                j++;
+            }
+        }
+
+        if(sortingOrder == "decrease"){
+            resultArray.reverse();
+        }
+
+        return resultArray;
+
+    }
+
+
+    //==========CODE EXPLANATION=========================
+
+
+    //this code filters nodes with odd values in attribute "myVal" and traces this values
+    var xmlData:XML =
+            <root>
+                <node myVal="1">data</node>
+                <node myVal="2"> data </node>
+                <node myVal="3"> data </node>
+                <node myVal="4"> data </node>
+                <node myVal="5"> data </node>
+            </root>;
+
+    xmlData.children().(@myVal % 2 == 0 && trace(@myVal));
+
+    //xmlData.children() - Lists the children of the XML object
+    //.(@myVal % 2 && trace(@myVal)) - in parentheses should be filtering condition, but function "trace" isn't a condition;
+    //if you would like to trace values you can do it that way:
+    // trace(xmlData.children().(@myVal % 2).@myVal) - traces all "myVal" values from filtered nodes
+    // trace(xmlData.children().(@myVal % 2)) - traces all filtered nodes

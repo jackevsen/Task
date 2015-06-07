@@ -3,22 +3,14 @@
  */
 package models.vios {
 public class ImageDataVO {
-    private var _name:String;
     private var _url:String;
     private var _width:Number;
     private var _height:Number;
     private var _x:Number;
     private var _y:Number;
+    private var _deleted:Boolean;
 
     public function ImageDataVO() {
-    }
-
-    public function get name():String {
-        return _name;
-    }
-
-    public function set name(value:String):void {
-        _name = value;
     }
 
     public function get url():String {
@@ -63,14 +55,22 @@ public class ImageDataVO {
 
     public function clone():ImageDataVO{
         var newData:ImageDataVO = new ImageDataVO();
-        newData.name = this.name;
         newData.url = this.url;
         newData.width = this.width;
         newData.height = this.height;
         newData.x = this.x;
         newData.y = this.y;
+        newData.deleted = this.deleted;
 
         return newData;
+    }
+
+    public function get deleted():Boolean {
+        return _deleted;
+    }
+
+    public function set deleted(value:Boolean):void {
+        _deleted = value;
     }
 }
 }

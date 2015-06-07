@@ -8,6 +8,18 @@
             <entry library-id="46cfb6c3-6e10-4893-adae-351a69706352">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-id="b516810e-d725-481b-94d8-ce19da49cf0f">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="231c8ac0-c9e8-4109-9a45-4fc8a03d389c">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="4c4e39b0-21c6-4e02-8f59-293a84da7496">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="87ae03d0-5ab1-4edd-a2e2-6252a1fdcc9d">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="FlexSDK" />
         </dependencies>
@@ -23,6 +35,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="FlexSDK" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -31,6 +44,46 @@
         <properties id="46cfb6c3-6e10-4893-adae-351a69706352" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/robotlegs-framework-v1.5.2.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="b516810e-d725-481b-94d8-ce19da49cf0f" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/greensock.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="231c8ac0-c9e8-4109-9a45-4fc8a03d389c" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/flexunit-core-as3.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="4c4e39b0-21c6-4e02-8f59-293a84da7496" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/flexunit-uilistener.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="87ae03d0-5ab1-4edd-a2e2-6252a1fdcc9d" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/hamcrest.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

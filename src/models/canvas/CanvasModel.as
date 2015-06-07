@@ -10,12 +10,12 @@ public class CanvasModel extends Actor {
     private var _maxCanvasWidth:Number;
     private var _maxCanvasHeight:Number;
 
-    private var _imagesModelsVector:Vector.<ImageDataVO>;
+    private var _imagesDataVector:Vector.<ImageDataVO>;
 
     public function CanvasModel() {
         super();
 
-        _imagesModelsVector = new Vector.<ImageDataVO>();
+        _imagesDataVector = new Vector.<ImageDataVO>();
     }
 
     public function get maxCanvasWidth():Number {
@@ -35,7 +35,21 @@ public class CanvasModel extends Actor {
     }
 
     public function get items():Vector.<ImageDataVO> {
-        return _imagesModelsVector;
+        return _imagesDataVector;
+    }
+
+    public function AddItem(item:ImageDataVO):void{
+        var index:int = _imagesDataVector.indexOf(item);
+        if(index < 0){
+            _imagesDataVector.push(item);
+        }
+    }
+
+    public function RemoveItem(item:ImageDataVO):void{
+        var index:int = _imagesDataVector.indexOf(item);
+        if(index >= 0){
+            _imagesDataVector.splice(index, 1);
+        }
     }
 }
 }

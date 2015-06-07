@@ -29,6 +29,7 @@ public class ImagesCanvasMediator extends Mediator {
     private function onAddToCanvas(e:CanvasEvent):void{
         if(e.image){
             view.addChild(e.image);
+            e.image.Show();
         }
     }
 }

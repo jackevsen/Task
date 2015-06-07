@@ -2,21 +2,28 @@
  * Created by jackevsen on 04.06.15.
  */
 package view.holder {
+import com.greensock.TweenLite;
+
 import flash.display.Bitmap;
 import flash.display.Sprite;
+import flash.events.MouseEvent;
 import flash.text.TextField;
 import flash.text.TextFieldAutoSize;
 
 import models.vios.ImageDataVO;
 
+import org.osflash.signals.natives.NativeSignal;
+
 public class ImageHolder extends Sprite {
     private var _imageBitmap:Bitmap;
     private var _imageData:ImageDataVO;
+    private var _imageClickSignal:NativeSignal;
 
     public function ImageHolder(data:ImageDataVO) {
         super();
 
         _imageData = data;
+        _imageClickSignal = new NativeSignal(this, MouseEvent.CLICK);
 
         if(_imageData){
             this.x = _imageData.x;
@@ -35,6 +42,10 @@ public class ImageHolder extends Sprite {
         addChild(_imageBitmap);
     }
 
+    public function GetBitmap():Bitmap{
+        return _imageBitmap;
+    }
+
     public function dispose():void{
         if(_imageBitmap){
             if(_imageBitmap.parent){
@@ -50,6 +61,12 @@ public class ImageHolder extends Sprite {
         }
 
         _imageData = null;
+
+        if(_imageClickSignal){
+            _imageClickSignal.removeAll();
+            _imageClickSignal = null;
+        }
+
     }
 
     public function removeFromParent(dispose:Boolean = false):void{
@@ -76,6 +93,30 @@ public class ImageHolder extends Sprite {
         textField.x = (imageData.width - textField.width) / 2;
         textField.y = (imageData.height - textField.height) / 2;
         addChild(textField);
+    }
+
+    public function get imageClickSignal():NativeSignal {
+        return _imageClickSignal;
+    }
+
+    public function Hide():void{
+        TweenLite.to(this, 1, {alpha: 0, onComplete: onFadeOutComplete});
+    }
+
+    public function Show():void{
+        TweenLite.from(this, 1, {alpha: 0});
+    }
+
+    public function Move():void{
+        if(_imageData == null){
+            return;
+        }
+
+        TweenLite.to(this, 1, {x: _imageData.x, y: imageData.y});
+    }
+
+    private function onFadeOutComplete():void{
+        removeFromParent(true);
     }
 }
 }

@@ -3,8 +3,10 @@
  */
 package {
 import controllers.commands.CompoundImagesCommand;
+import controllers.commands.RemoveImageFromCanvasCommand;
 import controllers.commands.StartupCommand;
 import controllers.commands.UpdateCanvasSizeCommand;
+import controllers.events.CanvasEvent;
 import controllers.events.ImagesEvent;
 import controllers.events.StartupEvent;
 import controllers.services.DataLoadingService;
@@ -43,11 +45,12 @@ public class MainContext extends Context {
         commandMap.mapEvent(StartupEvent.STARTUP, StartupCommand);
         commandMap.mapEvent(ImagesEvent.COMPOUND_IMAGES, CompoundImagesCommand);
         commandMap.mapEvent(Event.RESIZE, UpdateCanvasSizeCommand);
+        commandMap.mapEvent(CanvasEvent.REMOVE_FROM_CANVAS, RemoveImageFromCanvasCommand);
 
         mediatorMap.mapView(ImagesCanvas, ImagesCanvasMediator);
         mediatorMap.mapView(ImageHolder, ImageHolderMediator);
 
-        super .startup();
+        super.startup();
     }
 
     private function onStartupComplete(e:ContextEvent):void{

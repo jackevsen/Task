@@ -9,7 +9,7 @@ import models.vios.ImageDataVO;
 import org.robotlegs.mvcs.Actor;
 
 public class ImagesDataModel extends Actor {
-    private var _imagesDataVector:Vector.<ImageDataVO>
+    private var _imagesDataVector:Vector.<ImageDataVO>;
 
     public function ImagesDataModel() {
         super();
@@ -30,11 +30,21 @@ public class ImagesDataModel extends Actor {
             _imagesDataVector.push(imageData);
         }
 
-        dispatch(new ImagesEvent(ImagesEvent.COMPOUND_IMAGES));
+        if(eventDispatcher){
+            dispatch(new ImagesEvent(ImagesEvent.COMPOUND_IMAGES));
+        }
     }
 
     public function get imagesData():Vector.<ImageDataVO>{
         return _imagesDataVector;
+    }
+
+    public function ContainsImageData(item:ImageDataVO):Boolean{
+        if(_imagesDataVector == null){
+            return false;
+        }
+
+        return _imagesDataVector.indexOf(item) >= 0;
     }
 }
 }
