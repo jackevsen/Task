@@ -23,7 +23,9 @@
           </entries>
           <sdk name="FlexSDK" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <option name="additionalOptions" value="-use-network=false" />
+        </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />

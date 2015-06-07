@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a211a2d4-5470-4689-bd77-088d8f3f36b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/1.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/10.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/2.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/3.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/4.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/5.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/6.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/7.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/8.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/9.jpg" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/images/9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/Main.swf" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/Main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/events/CanvasEvent.as" afterPath="$PROJECT_DIR$/src/controllers/events/CanvasEvent.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/canvas/CanvasModel.as" afterPath="$PROJECT_DIR$/src/models/canvas/CanvasModel.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/commands/CompoundImagesCommand.as" afterPath="$PROJECT_DIR$/src/controllers/commands/CompoundImagesCommand.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/services/DataLoadingService.as" afterPath="$PROJECT_DIR$/src/controllers/services/DataLoadingService.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvolutionGamingTask.iml" afterPath="$PROJECT_DIR$/EvolutionGamingTask.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/vios/ImageDataVO.as" afterPath="$PROJECT_DIR$/src/models/vios/ImageDataVO.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/holder/ImageHolder.as" afterPath="$PROJECT_DIR$/src/view/holder/ImageHolder.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/holder/ImageHolderMediator.as" afterPath="$PROJECT_DIR$/src/view/holder/ImageHolderMediator.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/services/ImageLoadingService.as" afterPath="$PROJECT_DIR$/src/controllers/services/ImageLoadingService.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/canvas/ImagesCanvasMediator.as" afterPath="$PROJECT_DIR$/src/view/canvas/ImagesCanvasMediator.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/ImagesDataModel.as" afterPath="$PROJECT_DIR$/src/models/ImagesDataModel.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/events/ImagesEvent.as" afterPath="$PROJECT_DIR$/src/controllers/events/ImagesEvent.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainContext.as" afterPath="$PROJECT_DIR$/src/MainContext.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/data.xml" afterPath="$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/data.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EvolutionGamingTask.iws" />
@@ -57,16 +31,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.41647598">
               <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Additional Tasks" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Additional Tasks">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -141,6 +105,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="796" />
@@ -187,6 +152,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvolutionGamingTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvolutionGamingTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvolutionGamingTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -210,8 +197,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.18642116" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
   </component>
   <component name="RecentsManager">
@@ -574,12 +561,12 @@
       <workItem from="1433435695946" duration="10791000" />
       <workItem from="1433521750388" duration="7985000" />
       <workItem from="1433585257633" duration="23037000" />
-      <workItem from="1433664738513" duration="20856000" />
+      <workItem from="1433664738513" duration="21609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74444000" />
+    <option name="totallyTimeSpent" value="75197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,8 +578,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="796" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="23" width="1440" height="796" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -611,7 +598,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2627841" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -643,50 +630,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/canvas/ImagesCanvasMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/events/CanvasEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/canvas/CanvasModel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#69#100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/EvolutionGamingTask/serverData/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="e#11#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainContext.as">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1070,8 +1013,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Additional Tasks">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.3478261">
           <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvolutionGamingTask.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/flexCompiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1093,7 +1076,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18642116" />
               </list>
             </option>
           </splitter-proportions>
@@ -1101,11 +1084,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18642116" />
               </list>
             </option>
           </splitter-proportions>
@@ -1116,7 +1099,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18642116" />
               </list>
             </option>
           </splitter-proportions>
@@ -1128,7 +1111,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18642116" />
               </list>
             </option>
           </splitter-proportions>
@@ -1163,7 +1146,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.18642116" />
               </list>
             </option>
           </splitter-proportions>
